@@ -5,7 +5,18 @@ class Project extends React.Component {
 		super (props)
 	}
 	render(){
-		return <div></div>
+		const{ name, repo, site, image } = this.props.data;
+		return <div className="card large col s12 m6 l4 xl4">
+			<div className="card-image">
+				<img src ={image}></img>
+				<span className="card-title">{name}</span>
+			</div>
+			<div className="card-content"></div>
+			<div className="card-action">
+				{repo && <a href={repo}>Repository</a>}
+				{site && <a href={site}>Live Site</a>}
+			</div>
+		</div>
 	}
 }
 
