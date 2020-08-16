@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 class App extends React.Component {
 
@@ -21,6 +22,7 @@ class App extends React.Component {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/portfolio" component={Portfolio} />
+						<Route exact path="/contact" component={Contact} />
 						<Route component={FourOhFour} />
 					</Switch>
 					<Footer />
