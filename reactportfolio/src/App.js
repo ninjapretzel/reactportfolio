@@ -9,6 +9,7 @@ import FourOhFour from "./pages/FourOhFour";
 import Home from "./pages/Home"; 
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import Portfolio from './pages/Portfolio';
 
 class App extends React.Component {
 
@@ -19,6 +20,7 @@ class App extends React.Component {
 					<Header />
 					<Switch>
 						<Route exact path="/" component={Home} />
+						<Route exact path="/portfolio" component={Portfolio} />
 						<Route component={FourOhFour} />
 					</Switch>
 					<Footer />
