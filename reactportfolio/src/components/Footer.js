@@ -10,7 +10,9 @@ class Footer extends React.Component {
 		return <div>
 			<Nav />
 			<br />
-			Copyright {now}
+			<div className="pushDown left">
+				Copyright {now}
+			</div>
 		</div>
 	}
 }
