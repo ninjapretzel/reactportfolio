@@ -17,14 +17,16 @@ class Portfolio extends React.Component {
 					name: "Burger App",
 					repo: "https://github.com/bgartdu/burger",
 					site: "https://calm-brushlands-76584.herokuapp.com/",
-					image: "",
+					image: "/Burgerapp.png",
+					desc: "Express app that tracks state of burger data in a database",
 					
 				},
 				{
 					name: "Note Taker",
 					repo: "https://github.com/bgartdu/notetaker1",
 					site: "https://tranquil-peak-25137.herokuapp.com/",
-					image: "",
+					image: "/Notesapp.png",
+					desc: "Express app that takes notes",
 					
 				},
 
