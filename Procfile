@@ -1,1 +1,1 @@
-web: cd reactportfolio && npm run start
+web: npm run start
