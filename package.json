@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"build": "cd reactportfolio && npm i",
 		"start": "cd reactportfolio && npm run start"
 	}
 }
